@@ -33,7 +33,7 @@ RSpec.describe 'TC003 - Validate Invoice Details', type: :feature do
   end
 
   it 'validates invoice details' do
-    login('demouser', 'abc123')
+    login
 
     new_tab = @page.expect_popup do
       @page.click('a:has-text("Invoice Details") >> nth=0')

@@ -19,19 +19,26 @@ Ensure the following dependencies are installed:
    ```bash
    git clone git@github.com:gugadbrosa/e-core-automation.git
    ```
+
 2. **Install Ruby dependencies:**
-    ```bash
-    bundle install
-    ```
+
+   ```bash
+   gem install bundler
+   bundle install
+   ```
+
 3. **Install Playwright**
-    ```bash
-    npx playwright install
-    ```
+
+   ```bash
+   npx playwright install
+   ```
+
 ### Running tests
 
     bundle exec rspec
 
 ### Project Structure
+
 ```
 e-core-automation/
 ├── Gemfile
@@ -49,4 +56,4 @@ e-core-automation/
 
 ### CI
 
-The project uses [GitHub Actions](https://docs.github.com/en/actions) and tests are run automatically on PRs and on merge to `main` branch.  
+The project uses [GitHub Actions](https://docs.github.com/en/actions) and tests are run automatically on PRs and on merge to `main` branch.
