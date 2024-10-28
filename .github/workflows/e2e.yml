@@ -8,8 +8,8 @@ on:
    branches:
      - main
      
-  jobs:
-    ruby-playwright-run:
+jobs:
+  ruby-playwright-run:
      runs-on: ubuntu-latest
 
      steps:
