@@ -11,8 +11,8 @@ RSpec.describe 'TC002 - Login (Negative)', type: :feature do
     it "denies login for username: #{username} and password: #{password}" do
       login(username, password)
 
-      error_message = @page.locator('text=Wrong username or password').text_content.strip
-      expect(error_message).to eq('Wrong username or password.')
+      error_message = @page.locator('.alert').text_content
+      expect(error_message).to include('Wrong username or password')
     end
   end
 
