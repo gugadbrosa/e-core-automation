@@ -1,4 +1,4 @@
-# e-core-automation
+# E-core-automation
 
 This project is a Technical test using Ruby and Playwright for end-to-end automation.
 
@@ -47,4 +47,6 @@ e-core-automation/
         └── helpers.rb
 ```
 
-  
+### CI
+
+The project uses [GitHub Actions](https://docs.github.com/en/actions) and tests are run automatically on PRs and on merge to `main` branch.  
