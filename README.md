@@ -17,7 +17,7 @@ Ensure the following dependencies are installed:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/repository-name.git
+   git clone git@github.com:gugadbrosa/e-core-automation.git
    ```
 2. **Install Ruby dependencies:**
     ```bash
@@ -28,9 +28,8 @@ Ensure the following dependencies are installed:
     npx playwright install
     ```
 ### Running tests
-    bundle exec rspec
 
-    This command runs all the three test cases.
+    bundle exec rspec
 
 ### Project Structure
 ```
